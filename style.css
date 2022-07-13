@@ -5,6 +5,11 @@
     padding: 0;
 }
 
+h6 {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
 .heading {
     background-color: pink;
     border: 5px solid black;
@@ -37,4 +42,27 @@
     border: 1px solid black;
     border-collapse: collapse;
     padding: 5px;
+}
+
+.education {
+    border: 5px solid black;
+    border-radius: 10px;
+    float: left;
+    padding: 50px;
+    width: 30%;
+}
+
+.education ul ul {
+    margin-bottom: 10px;
+}
+
+.education ul li span {
+    color: red;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.education ul > li > ul > li {
+    margin-left: 10px;
 }
