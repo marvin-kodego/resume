@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.heading {
+    background-color: pink;
+    border: 5px solid black;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contact {
+    border: 5px solid black;
+    float: left;
+    padding: 50px;
+    width: 30%;
+}
+
+.work {
+    border: 5px solid black;
+    float: left;
+    padding: 50px;
+    width: 70%;
+}
+
+.table {
+    border-collapse: collapse;
+    text-align: left;
+    width: 100%;
+}
+
+.table th,
+.table td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
